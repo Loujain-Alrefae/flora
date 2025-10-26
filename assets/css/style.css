@@ -150,3 +150,73 @@ nav{
         z-index: -1;
     }
 }
+
+/* first section style */
+.how-it-work{
+    .box{
+        gap: 43px;
+
+        .card-section{
+            max-width: 380px;
+            padding: 30px 40px 80px ;
+
+            h2{
+                padding: 20px 0 10px;
+                font-weight: 600;
+                font-size: 22px;
+            }
+
+            p{
+                font-size: 14px;
+                color: #22222280;
+            }
+
+            .white-img{
+                display: none;
+            }
+        }
+
+        .card-section:hover{
+            background-color: #025595;
+            border-radius: 15px;
+
+            .white-img{
+                display: block;
+            }
+
+            .img-blue{
+                display: none;
+            }
+
+            p , h2{
+                color:  #FFFFFF;
+            }
+        }
+    }
+}
+
+/* second section style */
+.kitchen-img{
+
+    h1 , .discraption-section{
+        display: none;
+    }
+
+    .bg-img{
+        margin-top: 94px;
+        position: relative;
+
+        .kitchen{
+            width: 100%;
+            height: 380px;
+        }
+
+        .bg-kitchen{
+            display: none;
+        }
+
+        .details{
+            display: none;
+        }
+    }
+}
