@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color:  #222222;
+}
+
+/* Global style  */
+.padding{
+    padding-left:70px ;
+}
+
+section h1{
+    padding-top: 94px;
+    font-size: 39px;
+}
+
+.discraption-section{
+    margin: 5px 0 56px ;
+    font-size: 15px;
+    color: #22222280;
+}
+
+.box{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* nav style  */
+nav{
+    width: 100vw;
+    height: 90px;
+    background-color:#EFF8FF;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+    z-index: 3;
+
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+
+            li a:hover{
+                color: #025595 ;
+            }
+        }
+
+        ul li a{
+            font-weight: 500;
+            text-decoration: none;
+
+        }
+
+        
+
+        .login{
+            width: 135px;
+            height: 38px;
+            color: #F5F5F5;
+            background: #025595;
+            border-radius: 6px;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .bars{
+            display: none;
+        }
+        .menu{
+            display: none;
+        }
+}
+
+
+/* Hero style */
+.hero{
+    min-height: 100vh;
+    background-color:#EFF8FF;
+    position: relative;
+    z-index: -2;
+
+    .tittle{
+        padding: 122px 70px 0;
+
+        h1{
+            max-width: 549px;
+            font-size: 60px;
+        }
+
+        .discription{
+            max-width: 423px;
+            color: #22222280;
+            margin: 20px 0 50px;
+        }
+    }
+
+        .info{
+            max-width: 886px;
+            min-height: 100px;
+            padding: 0 58px;
+            margin-left: 70px;
+            background: #FFFFFFCC;
+            border-radius: 16px;
+            display: flex;
+            justify-content: space-between;
+            gap: 24px;
+            align-items: center;
+            backdrop-filter: blur(16px);
+
+            .card{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                .image{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: #02559512;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .text{
+                h2{
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+
+                p{
+                    padding-top:10px ;
+                    color: #22222280;
+                }
+            }
+        }
+
+    .flat{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+}
